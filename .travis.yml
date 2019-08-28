@@ -20,6 +20,6 @@ script:
 - docker run -e CI=true cpackingham/react-test npm run test
 deploy:
   provider: script
-  script: bash ./dpeloy.sh
+  script: bash ./deploy.sh
   on:
     branch: master
